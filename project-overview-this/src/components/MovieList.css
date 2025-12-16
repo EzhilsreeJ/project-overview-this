@@ -1,0 +1,13 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.movie-list p {
+  width: 100%;
+  text-align: center;
+  color: #aaa;
+}
