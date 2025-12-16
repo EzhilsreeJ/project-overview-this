@@ -1,7 +1,41 @@
-This will open the application in your default browser at `http://localhost:3000`.
+*   Node.js and npm (or yarn) installed.
 
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1.  Clone this repository:
+    ```bash
+    git clone <repository-url>
+    cd movie-recommender
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
 
-This project is licensed under the MIT License.
+1.  Start the development server:
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    The application will be available at `http://localhost:3000`.
+
+
+*   **Home Page:** Navigate to the root URL (`/`) to see the list of recommended movies. Click on a movie card to view its details.
+*   **Admin Page:** Navigate to `/admin` to access the administrative dashboard. Here you can:
+    *   Click "Add New Movie" to open a form for adding a new movie.
+    *   Click "Edit" next to an existing movie to modify its details.
+    *   Click "Delete" next to an existing movie to remove it.
+
+
+*   The movie data is currently mocked in `src/utils.js`. In a real-world application, this would involve API calls to a backend server.
+*   Error handling and loading states are implemented for fetching data.
+*   Basic routing is set up using `react-router-dom`.
+
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+MIT
