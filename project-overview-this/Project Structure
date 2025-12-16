@@ -1,8 +1,21 @@
-# Movie Recommendation System
-
-This is a simple React-based movie recommendation system with an administrative interface.
-
-
-*   Browse recommended movies.
-*   View movie details.
-*   Admin page to add, edit, and delete movies.
+.
+├── public
+│   └── index.html
+├── src
+│   ├── admin
+│   │   ├── components
+│   │   │   └── MovieForm.jsx
+│   │   └── pages
+│   │       └── AdminDashboard.jsx
+│   ├── components
+│   │   ├── MovieCard.jsx
+│   │   └── MovieList.jsx
+│   ├── pages
+│   │   ├── HomePage.jsx
+│   │   └── MovieDetailsPage.jsx
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── utils.js
+├── package.json
+└── README.md
