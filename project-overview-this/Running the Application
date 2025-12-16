@@ -1,34 +1,3 @@
-*   Browse popular movies.
-*   Browse trending movies.
-*   Search for specific movies.
-*   View movie details (title, overview, release date, rating).
-*   Receive basic personalized recommendations.
-*   Responsive design (basic styling included).
-
-
-
-*   [Node.js](https://nodejs.org/) installed
-*   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) installed
-
-
-1.  Clone this repository:
-    ```bash
-    git clone <repository-url>
-    cd movie-recommendation-app
-    ```
-
-2.  Install dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3.  **Obtain a TMDB API Key:**
-    *   Sign up or log in at [The Movie Database (TMDB)](https://www.themoviedb.org/).
-    *   Go to your account settings and navigate to the API section.
-    *   Request an API key.
-    *   Replace `'YOUR_TMDB_API_KEY'` in `src/api/tmdb.js` with your actual key.
-
-
-Start the development server:
+npm start
+# or
+yarn start
