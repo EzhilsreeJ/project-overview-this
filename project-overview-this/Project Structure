@@ -1,5 +1,21 @@
-# Movie Recommendation App
-
-A React-based movie recommendation system. This application allows users to browse popular and trending movies, view movie details, and receive personalized recommendations.
-
-**Note:** This project uses the TMDB API. You will need to obtain an API key and replace `'YOUR_TMDB_API_KEY'` in `src/api/tmdb.js` for actual API calls to work. If no API key is provided, the application will fall back to using mock data.
+movie-recommendation-app/
+├── public/
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── api/
+│   │   └── tmdb.js
+│   ├── components/
+│   │   ├── MovieCard.js
+│   │   ├── MovieDetail.js
+│   │   ├── MovieList.js
+│   │   ├── RecommendationList.js
+│   │   └── SearchBar.js
+│   ├── context/
+│   │   └── MovieContext.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
